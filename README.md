@@ -43,9 +43,23 @@ Annotated:
 
 Notice the curlytag `{delegate}`. This is just shortform for the following JSON equivalent `{"delegate": true}`
 
+Often I want to simply tag nodes in my mindmaps.
+
+Original: 
+> Principle Agent Problem
+![Node without curlytags]()
+
+Annotated:
+> Principle Agent Problem {aka: theory of agency} {field: Business} {tag: "Brand-Image", "coombs"}
+![Node with curlytags]()
+
+The mindmapping software could then simply display the curlytags as node attributes
+
+![Node with attributes]()
+
 ## Design Goals
 
-The following design goals guide the development and usage of curlytag (in order of preference):
+The following design goals guide the development and usage of curlytag:
 
 1. Legibility
 2. Simplicity
@@ -55,23 +69,21 @@ The following design goals guide the development and usage of curlytag (in order
 
 Fine, here are the technical details.
 
-### TODO
+{todo: fill out the technical details}
 
 ## Illegal Use Cases
 
-- Anything that's complex. The user won't use it anyway
-Inserting
+##### Anything that's too complex. The user won't use it anyway.
+
+Example:
+
+> {todo: insert overly complex example here}
+
+##### Curly tags that have *more than one* key-value pairing.
+
+Example:
+
 > Curly really only supports one key-value pairing within curly brackets? That's stupid! {todo: "elaborate on its stupidity", tag: "curly"}
-
-Another use case could be to tag nodes in mindmaps.
-
-> Principle Agent Problem {aka: theory of agency} {field: Business} {tag: "Brand-Image", "coombs"}
-
-![Node with curlytags]()
-
-This text could then be intepreted by the application whichever way it sees fit. In the context of a mindmapping program it could convert the curlytags into node attributes
-
-![Node with attributes]()
 
 ## FAQ
 
