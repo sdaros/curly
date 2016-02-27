@@ -11,7 +11,7 @@ You can think of it as a [JSON](http://json.org/) Object that has *only one* key
 
 ## Use Cases
 
-Sometimes I want to add a comment in a text-document that I am proofreading for someone.
+##### Sometimes I want to add a comment in a text-document that I am proofreading for someone.
 
 Original:
 
@@ -25,7 +25,7 @@ With proper application support, this curlytag could be turned into a comment.
 
 ![Doc with comment](https://cip.li/res/curly_oss_comment.png)
 
-Usually, when i'm trying to avoid doing real work, I feel the spontaneous need to tag all the things I should be doing.
+##### While avoiding work, I like to tag all the things I should be doing.
 
 Original (an output of my todo.txt file):
 
@@ -43,7 +43,7 @@ Annotated:
 
 Notice the curlytag `{delegate}`. This is just shortform for the following JSON equivalent `{"delegate": true}`
 
-Often I want to simply tag nodes in my mindmaps.
+##### I want to simply tag nodes in my mindmaps.
 
 Original: 
 > Principle Agent Problem
@@ -71,9 +71,9 @@ Fine, here are the technical details.
 
 {todo: fill out the technical details}
 
-## Illegal Use Cases
+## Illegal Usage
 
-##### Anything that's too complex. The user won't use it anyway.
+##### Anything that's too complicated.
 
 Example:
 
