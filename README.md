@@ -59,7 +59,7 @@ The mindmapping software could then simply display the curlytags as node attribu
 
 ## Design Goals
 
-No guarantees can be made for machine parseability, since curlytags are designed to be as simple as possible to write and read. The following design goals guide the development and usage of curlytag:
+No guarantees can be made for machine parseability, since curlytags are designed to be as simple as possible for humans to write and read. The following design goals guide the development and usage of curlytag:
 
 1. Legibility
 2. Simplicity
