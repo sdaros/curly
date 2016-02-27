@@ -11,7 +11,7 @@ You can think of it as a [JSON](http://json.org/) Object that has *only one* key
 
 ## Use Cases
 
-##### Sometimes I want to add a comment in a text-document that I am proofreading for someone.
+##### Sometimes I want to add a comment in a text-document that I am proofreading.
 
 Original:
 
