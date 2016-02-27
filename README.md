@@ -7,7 +7,7 @@ Curly is a general recommendation on how to annotate things with metadata using 
 
 ```
 
-You can think of it as a [JSON](http://json.org/) Object that has *only one* key-value pairing. Insert your curlytags wherever its appropriate to quickly annotate things.
+You can think of it as a [JSON](http://json.org/) Object with *only one* key-value pairing. Insert your curlytags wherever its appropriate to quickly annotate things.
 
 ## Use Cases
 
