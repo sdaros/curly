@@ -7,11 +7,11 @@ Curly is a general recommendation on how to annotate things with metadata using 
 
 ```
 
-You can think of it as a [JSON]() Object that has *only one* key-value pairing. Insert your curlytags wherever its appropriate to quickly tag things.
+You can think of it as a [JSON](http://json.org/) Object that has *only one* key-value pairing. Insert your curlytags wherever its appropriate to quickly tag things.
 
 ## Use Cases
 
-Sometimes I want to be able to add a comment in a text-document that I am proofreading for someone.
+Sometimes I want to be able to dad a comment in a text-document that I am proofreading for someone.
 
 Original:
 
@@ -23,9 +23,8 @@ Annotated with a comment:
 
 With proper application support, this curlytag could be turned into a comment.
 
-![Doc with comment]()
+![Doc with comment](https://cip.li/res/curly_oss_comment.png)
 
----
 Usually, when i'm trying to avoid doing real work, I feel the spontaneous need to tag all the things I should be doing.
 
 Original (an output of my todo.txt file):
@@ -43,8 +42,6 @@ Annotated:
 > - donate to the EFF {context: Computer}
 
 Notice the curlytag `{delegate}`. This is just shortform for the following JSON equivalent `{"delegate": true}`
-
----
 
 ## Design Goals
 
@@ -70,13 +67,14 @@ Another use case could be to tag nodes in mindmaps.
 
 > Principle Agent Problem {aka: theory of agency} {field: Business} {tag: "Brand-Image", "coombs"}
 
-[Node with curlytags]()
+![Node with curlytags]()
 
 This text could then be intepreted by the application whichever way it sees fit. In the context of a mindmapping program it could convert the curlytags into node attributes
 
-[Node with attributes]()
+![Node with attributes]()
 
 ## FAQ
 
-1. Umm... isn't this just [CSON]()?
- - Yes. Think of it as CSON optimized to be inserted by a humans with as little mental effort as possible.
+#### Umm... I don't get it
+
+{todo: Solve the user's confusion}
