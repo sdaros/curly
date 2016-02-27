@@ -9,6 +9,8 @@ Curly is a general recommendation on how to annotate things with metadata using 
 
 You can think of it as a [JSON](http://json.org/) Object with *only one* key-value pairing. Insert your curlytags wherever its appropriate to quickly annotate things.
 
+A curlytag is easy for humans to write and read and *should* be possible for maschines to parse. 
+
 ## Use Cases
 
 ##### Sometimes I want to add a comment in a text-document that I am proofreading.
