@@ -9,8 +9,6 @@ Curly is a general recommendation on how to annotate things with metadata using 
 
 You can think of it as a [JSON](http://json.org/) Object with *only one* key-value pairing. Insert your curlytags wherever its appropriate to quickly annotate things.
 
-A curlytag is easy for humans to write and read. There are no guarantees that a curly tag can be parsed by a maschine.
-
 ## Use Cases
 
 ##### Sometimes I want to add a comment in a text-document that I am proofreading.
@@ -61,7 +59,7 @@ The mindmapping software could then simply display the curlytags as node attribu
 
 ## Design Goals
 
-The following design goals guide the development and usage of curlytag:
+No guarantees can be made for machine parseability, since curlytags are designed to be as simple as possible to write and read. The following design goals guide the development and usage of curlytag:
 
 1. Legibility
 2. Simplicity
