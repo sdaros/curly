@@ -7,33 +7,44 @@ Curly is a general recommendation on how to annotate things with metadata using 
 
 ```
 
-You can think of it as a [JSON]() Object that has *only one* key-value pairing. Insert your curlytags wherever its appropriate.
-
-And... that's it.
+You can think of it as a [JSON]() Object that has *only one* key-value pairing. Insert your curlytags wherever its appropriate to quickly tag things.
 
 ## Use Cases
 
-1. Sometimes I want to be able to add a comment in a text-document that I am proofreading for someone.
+Sometimes I want to be able to add a comment in a text-document that I am proofreading for someone.
 
 Original:
 
 > In this report we will discuss about the importance of Open-Source Software.
 
-Add a comment:
+Annotated with a comment:
 
-> In this report we will discuss about the importance of Open-Source Software {cmt: since Richard Stallman will be reading this, you might want to change "Open-Source Software" to "Libre Software"}.
+> In this report we will discuss about the importance of Open-Source Software {comment: since Richard Stallman will be reading this, you might want to change "Open-Source Software" to "Libre Software"}.
 
 With proper application support, this curlytag could be turned into a comment.
 
 ![Doc with comment]()
 
-2. Sometimes (usually when im trying to avoid real work) I feel the spontaneous need to tag all the things.
+---
+Usually, when i'm trying to avoid doing real work, I feel the spontaneous need to tag all the things I should be doing.
 
-Original (output of my todo.txt file):
+Original (an output of my todo.txt file):
 
-> - clean garbage {tag: next}
+> - clean the kitchen
+> - do the laundry
+> - winter tires for the car
+> - donate to the EFF
 
+Annotated:
 
+> - clean the kitchen {context: Home}
+> - do the laundry {context: Home} {delegate}
+> - winter tires for the car {context: City}
+> - donate to the EFF {context: Computer}
+
+Notice the curlytag `{delegate}`. This is just shortform for the following JSON equivalent `{"delegate": true}`
+
+---
 
 ## Design Goals
 
