@@ -2,7 +2,7 @@
 
 Curly is a general recommendation on how to annotate things with metadata using plain text enclosed in curly brackets. The resulting metadata is called "curlytag" and looks like this:
 
-```
+```cson
 {key: value}
 
 ```
@@ -11,7 +11,7 @@ You can think of it as a [JSON](http://json.org/) Object that has *only one* key
 
 ## Use Cases
 
-Sometimes I want to be able to dad a comment in a text-document that I am proofreading for someone.
+Sometimes I want to be able to add a comment in a text-document that I am proofreading for someone.
 
 Original:
 
