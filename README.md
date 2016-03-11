@@ -45,21 +45,19 @@ Annotated:
 > - winter tires for the car {context: City}
 > - donate to the EFF {context: Computer}
 
-Notice the curlytag `{delegate}`. This is just shortform for the following JSON equivalent `{"delegate": true}`
+Notice the curlytag `{delegate}`. This is just shortform for the following JSON equivalent `{"delegate": true}`.
 
-##### I want to simply tag nodes in my mindmaps.
+##### Annotating nodes in my mindmaps can be useful.
 
 Original: 
-> Principle Agent Problem
-![Node without curlytags]()
+![Node without curlytags](https://cip.li/res/curly_mindmap_no_tags.png)
 
 Annotated:
-> Principle Agent Problem {aka: theory of agency} {field: Business} {tag: "Brand-Image", "coombs"}
-![Node with curlytags]()
+![Node with curlytags](https://cip.li/res/curly_mindmap_with_tags.png)
 
-The mindmapping software could then simply display the curlytags as node attributes
+The mindmapping software could then simply display the curlytags as node attributes.
 
-![Node with attributes]()
+![Node with attributes](https://cip.li/res/curly_mindmap_with_attributes.png)
 
 ## Design Goals
 
@@ -71,26 +69,18 @@ No guarantees can be made for machine parseability, since curlytags are designed
 
 ## Seriously, that can't be it...
 
-Fine, here are the technical details.
-
-{todo: fill out the technical details}
+Relax, we're still at version 0.1.0. The technical details for those that want to parse curlytags will come. 
 
 ## Illegal Usage
-
-##### Anything that's too complicated.
-
-Example:
-
-> {todo: insert overly complex example here}
 
 ##### Curly tags that have *more than one* key-value pairing.
 
 Example:
 
-> Curly really only supports one key-value pairing within curly brackets? That's stupid! {todo: "elaborate on its stupidity", tag: "curly"}
+> Curly really only supports one key-value pairing within curly brackets? That's really stupid! The authors clearly did not think this through... {todo: "elaborate on its stupidity", tag: "curly"}
 
 ## FAQ
 
 #### Umm... I don't get it
 
-{todo: Solve the user's confusion}
+(todo: Solve the user's confusion)
