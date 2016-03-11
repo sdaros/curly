@@ -1,6 +1,6 @@
 # CURLY
 
-Curly is a general recommendation on how to annotate things with metadata using plain text enclosed in curly brackets _or_ paranthesis. The resulting metadata is called "curlytag" and looks like this:
+Curly is a general recommendation on how to annotate things using plain text enclosed in curly brackets _or_ paranthesis. The resulting metadata is called "curlytag" and looks like this:
 
 ```cson
 {key: value}
