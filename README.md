@@ -23,7 +23,7 @@ Original:
 
 Annotated with a comment:
 
-> In this report we will discuss about the importance of Open-Source Software {comment: since Richard Stallman will be reading this, you might want to change "Open-Source Software" to "Libre Software"}.
+> In this report we will discuss about the importance of Open-Source Software (comment: since Richard Stallman will be reading this, you might want to change "Open-Source Software" to "Libre Software").
 
 With proper application support, this curlytag could be turned into a comment.
 
