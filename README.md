@@ -1,6 +1,6 @@
 # CURLY
 
-Curly is a general recommendation on how to annotate things using plain text enclosed in curly brackets _or_ paranthesis. The resulting metadata is called "curlytag" and looks like this:
+Curly is a general recommendation on how to annotate things using plain text enclosed in curly brackets _or_ paranthesis. The resulting metadata is called "curlytag" and can look like this:
 
 ```cson
 {key: value}
@@ -47,7 +47,7 @@ Annotated:
 
 Notice the curlytag `{delegate}`. This is just shortform for the following JSON equivalent `{"delegate": true}`.
 
-##### Annotating nodes in my mindmaps can be useful.
+##### Annotating a node in a mindmap can be useful.
 
 Original: 
 ![Node without curlytags](https://cip.li/res/curly_mindmap_no_tags.png)
