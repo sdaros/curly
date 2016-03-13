@@ -65,7 +65,7 @@ No guarantees can be made for machine parseability, since curlytags are designed
 
 1. Legibility
 2. Simplicity
-3. YAGNI (You Aint Going to Need It)
+3. [YAGNI](https://en.wikipedia.org/wiki/You_aren't_gonna_need_it)
 
 ## Seriously, that can't be it...
 
