@@ -57,7 +57,7 @@ Annotated:
 
 The mindmapping software could then simply display the curlytags as node attributes.
 
-![Node with attributes](https://cip.li/res/curly_mindmap_with_attributes.png)
+![Node with attributes](https://cip.li/res/curly_mindmap_with_attributes_2.png)
 
 ## Design Goals
 
